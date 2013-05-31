@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
 // control drag an action for button pressed. This method will be called with "next hole" button is pressed
 - (IBAction)nextHolePressed:(id)sender;
+
+// this method gets called when someone presses the "Scorecard" button
+- (IBAction)scorecardPressed:(id)sender;
 
 // control drag an event for button pressed. This method will be called with "+" button is pressed
 - (IBAction)addStrokePressed:(id)sender;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301B34661758E99A007E1E8A /* ScorecardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B34641758E919007E1E8A /* ScorecardViewController.m */; };
+		301B34681758EB2E007E1E8A /* ScorecardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 301B34671758EB2E007E1E8A /* ScorecardViewController.xib */; };
 		3069ACF8174EDEF0008419AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069ACF7174EDEF0008419AD /* UIKit.framework */; };
 		3069ACFA174EDEF0008419AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069ACF9174EDEF0008419AD /* Foundation.framework */; };
 		3069ACFC174EDEF0008419AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069ACFB174EDEF0008419AD /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301B34631758E919007E1E8A /* ScorecardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScorecardViewController.h; sourceTree = "<group>"; };
+		301B34641758E919007E1E8A /* ScorecardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScorecardViewController.m; sourceTree = "<group>"; };
+		301B34671758EB2E007E1E8A /* ScorecardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScorecardViewController.xib; path = ../ScorecardViewController.xib; sourceTree = "<group>"; };
 		3069ACF4174EDEF0008419AD /* GolfScoreTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfScoreTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3069ACF7174EDEF0008419AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3069ACF9174EDEF0008419AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +90,9 @@
 			children = (
 				3069AD06174EDEF0008419AD /* AppDelegate.h */,
 				3069AD07174EDEF0008419AD /* AppDelegate.m */,
+				301B34631758E919007E1E8A /* ScorecardViewController.h */,
+				301B34641758E919007E1E8A /* ScorecardViewController.m */,
+				301B34671758EB2E007E1E8A /* ScorecardViewController.xib */,
 				3069AD0F174EDEF0008419AD /* ViewController.h */,
 				3069AD10174EDEF0008419AD /* ViewController.m */,
 				3069AD12174EDEF0008419AD /* ViewController.xib */,
@@ -163,6 +171,7 @@
 				3069AD0C174EDEF0008419AD /* Default@2x.png in Resources */,
 				3069AD0E174EDEF0008419AD /* Default-568h@2x.png in Resources */,
 				3069AD14174EDEF0008419AD /* ViewController.xib in Resources */,
+				301B34681758EB2E007E1E8A /* ScorecardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3069AD04174EDEF0008419AD /* main.m in Sources */,
-				3069AD08174EDEF0008419AD /* AppDelegate.m in Sources */,
+				301B34661758E99A007E1E8A /* ScorecardViewController.m in Sources */,
 				3069AD11174EDEF0008419AD /* ViewController.m in Sources */,
+				3069AD08174EDEF0008419AD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +308,7 @@
 				3069AD19174EDEF0008419AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

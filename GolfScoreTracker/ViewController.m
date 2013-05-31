@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ScorecardViewController.h"
 @interface ViewController ()
 
 @end
@@ -43,6 +43,19 @@
     
 }
 
+- (IBAction)scorecardPressed:(id)sender {
+
+    // create, allocate and initialize the view controller we want to show.
+    ScorecardViewController *vc = [[ScorecardViewController alloc] initWithNibName:nil bundle:nil];
+
+    // set the scores array to be used
+    vc.scores = self.strokes;
+
+    // show the viewcontroller
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
+
 - (IBAction)addStrokePressed:(id)sender {
 
     // increment the counter by 1 shot
@@ -71,4 +84,6 @@
     // resets the label using placeholders
     [self.totalScore setText: [NSString stringWithFormat:@"Total Strokes: %i", total]];
 }
+
+
 @end
